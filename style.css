@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 img {
@@ -31,4 +32,58 @@ ul {
   margin-right: auto;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.bt-piccolo-blu {
+  background-color: dodgerblue;
+  width: 60px;
+  height: 30px;
+  font-size: 0.8rem;
+  border: none;
+  color: white;
+}
+
+/* header */
+
+header {
+  max-width: 1300px;
+  min-height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+}
+
+.logo-link {
+  max-width: calc(100% / 2);
+  flex: 1 0 0;
+}
+.logo-link ul {
+  display: flex;
+  align-items: center;
+}
+
+.logo-link li {
+  display: inline;
+  padding-left: 20px;
+}
+header li > a {
+  color: black;
+  text-decoration: none;
+}
+
+.logo-link img {
+  display: inline;
+  padding-left: 20px;
+}
+
+.link-bottone {
+  max-width: calc(100% / 2);
+}
+
+.link-bottone li {
+  display: inline;
+  padding-right: 20px;
 }
