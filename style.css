@@ -123,8 +123,8 @@ main .background-azzurro {
 }
 
 .testo-main-azzurro {
-  padding-top: 80px;
-  max-width: 35%;
+  padding-top: 137px;
+  max-width: 45%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -135,22 +135,59 @@ main .background-azzurro {
 .testo-main-azzurro .bt-grande-blu {
   margin-bottom: 20px;
 }
+.testo-main-azzurro .fa-solid {
+  font-size: 30px;
+  align-self: center;
+  padding-right: 180px;
+}
 .immagine-main-azzurro {
   padding-top: 80px;
   max-width: 45%;
   padding-right: 40px;
   position: relative;
-  top: 50px;
+  top: 60px;
   right: 50px;
 }
 .immagine-main-azzurro img {
-  max-width: 100%;
+  max-width: 120%;
 }
 .top-main p {
-  max-width: 60%;
+  max-width: 80%;
   padding-bottom: 30px;
+  font-size: 0.9rem;
 }
 
 /* fine prima parte main */
 
 /* seconda parte main */
+
+.business .container {
+  margin-top: 50px;
+}
+.business p {
+  max-width: 100%;
+  display: inline;
+  padding-right: 20px;
+}
+.business h2 {
+  padding-bottom: 30px;
+}
+.flag-blu {
+  display: inline-block;
+  border: 5px solid blue;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  margin-right: 10px;
+}
+.flag-gray {
+  display: inline-block;
+  border: 5px solid lightslategrey;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  margin-right: 10px;
+}
+/* fine seconda parte main */
