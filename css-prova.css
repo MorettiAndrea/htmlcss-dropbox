@@ -15,13 +15,21 @@ ul {
 
 .debug * {
   min-height: 100px;
-  padding: 5px;
+
   background-color: rgb(255, 9, 9);
   border: 2px rgb(22, 1, 140);
 }
 
 .border {
   border: 2px dashed black;
+}
+
+h2 {
+  padding-bottom: 20px;
+}
+h2 > div {
+  padding-bottom: 20px;
+  padding-left: 20px;
 }
 /* /setup generali */
 
@@ -141,6 +149,7 @@ header li > a {
 }
 
 #jumbo .container {
+  max-width: 1300px;
   position: relative;
   top: 100px;
 }
@@ -156,32 +165,10 @@ header li > a {
 
 /* business */
 
-.business > .container {
+.business {
   margin-top: 200px;
 }
-.business p {
-  display: inline;
-}
-.business h2 {
-  padding-bottom: 30px;
-}
 
-.business-topper {
-  margin-bottom: 20px;
-}
-
-.offer-type {
-  padding-top: 10px;
-  text-align: center;
-  min-height: 40px;
-}
-.business .col-1-3 h3 {
-  padding-top: 20px;
-}
-
-.business ul li {
-  padding-top: 20px;
-}
 .flag-blu {
   display: inline-block;
   border: 5px solid blue;
