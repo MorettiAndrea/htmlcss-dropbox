@@ -26,6 +26,7 @@ ul {
 /* /setup generali */
 
 /* utility */
+
 .container {
   max-width: 1100px;
   margin-left: auto;
@@ -33,6 +34,7 @@ ul {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
+
 .container-xl {
   max-width: 1200px;
   margin-left: auto;
@@ -175,7 +177,7 @@ header li > a {
   background-color: #b4d0e7;
 }
 
-#jumbo .container {
+#jumbo .container-xl {
   position: relative;
   top: 100px;
 }
@@ -254,3 +256,18 @@ header li > a {
 }
 
 /* <!-- fine product explanation --> */
+
+/* inizio client */
+
+.client {
+  margin-bottom: 200px;
+}
+.client h2 {
+  padding-bottom: 40px;
+}
+
+/* fine client */
+
+/* fine main */
+
+/* inizio footer */
