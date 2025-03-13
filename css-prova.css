@@ -27,6 +27,13 @@ ul {
 
 /* utility */
 .container {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.container-xl {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -49,6 +56,13 @@ ul {
   font-size: 0.8rem;
   border: none;
   color: white;
+}
+.bt-grande-bianco {
+  background-color: white;
+  width: 140px;
+  height: 40px;
+  font-size: 1rem;
+  border: 1px solid black;
 }
 h1 {
   font-size: 4.2rem;
@@ -96,6 +110,14 @@ h1 {
 
 .col-1-3 {
   width: calc(100% / 3);
+}
+
+.col40 {
+  width: 40%;
+}
+
+.col60 {
+  width: 60%;
 }
 
 /* fine colonne */
@@ -211,6 +233,16 @@ header li > a {
 
 /* fine business */
 
-/* inizio find a partner
+/* inizio find a partner*/
+
+.partner-finder {
+  margin-bottom: 200px;
+}
+
+.partner-finder .col40 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
 
 /* fine find a partner*/
