@@ -66,9 +66,6 @@ ul {
   font-size: 1rem;
   border: 1px solid black;
 }
-h1 {
-  font-size: 4.2rem;
-}
 
 .top-list {
   border: 1px gray solid;
@@ -180,6 +177,15 @@ header li > a {
 #jumbo {
   background-color: #b4d0e7;
 }
+#jumbo h1 {
+  font-size: 4.2rem;
+  margin-bottom: 80px;
+}
+
+#jumbo i {
+  font-size: 3rem;
+  font-weight: bolder;
+}
 
 #jumbo .container-xl {
   position: relative;
@@ -201,7 +207,16 @@ header li > a {
   margin-top: 200px;
   margin-bottom: 200px;
 }
+
+.business-top div {
+  font-size: 0, 7rem;
+}
 .business h2 {
+  padding-bottom: 30px;
+  font-size: 2.4rem;
+}
+
+.business-top {
   padding-bottom: 30px;
 }
 
@@ -214,7 +229,7 @@ header li > a {
 }
 .flag-blu {
   display: inline-block;
-  border: 5px solid blue;
+  border: 5px solid #0665e6;
   border-radius: 50%;
   width: 20px;
   height: 20px;
@@ -299,5 +314,8 @@ footer {
 
 .footer-bottom .col-20 {
   text-align: center;
-  border-top: 1px solid white;
+}
+
+.footer-bottom .hr {
+  padding-bottom: 20px;
 }
