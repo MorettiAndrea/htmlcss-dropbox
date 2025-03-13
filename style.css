@@ -56,10 +56,9 @@ h1 {
 
 .top-list {
   border: 1px gray solid;
-  padding-left: auto;
-  padding-right: auto;
+  padding-top: 10px;
   text-align: center;
-  min-height: 30px;
+  height: 50px;
   width: 100%;
   display: block;
 }
@@ -172,20 +171,12 @@ header li > a {
 
 .business > .container {
   margin-top: 200px;
+  margin-bottom: 200px;
 }
 .business h2 {
   padding-bottom: 30px;
 }
 
-.business-topper {
-  margin-bottom: 20px;
-}
-
-.offer-type {
-  padding-top: 10px;
-  text-align: center;
-  min-height: 40px;
-}
 .business .col-1-3 h3 {
   padding-top: 20px;
 }
@@ -214,8 +205,12 @@ header li > a {
 
 .bottom-business {
   display: flex;
-
   justify-content: space-between;
+  padding: 20px 0;
 }
 
 /* fine business */
+
+/* inizio find a partner
+
+/* fine find a partner*/
