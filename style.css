@@ -271,3 +271,31 @@ header li > a {
 /* fine main */
 
 /* inizio footer */
+
+footer {
+  background-color: black;
+  color: white;
+  min-height: 400px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-around;
+}
+.footer-top ul {
+  display: inline-block;
+  padding: 30px 30px;
+}
+.footer-top h3 {
+  padding: 30px 0;
+}
+.footer-top li {
+  padding-bottom: 20px;
+}
+
+.language-selector {
+  padding-top: 40px;
+  margin-left: 70px;
+  border-top: 1px solid white;
+  max-width: 100px;
+}
