@@ -54,6 +54,35 @@ h1 {
   font-size: 4.2rem;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 2rem;
+  margin-left: -1, 5rem;
+  margin-right: -1, 5rem;
+}
+
+[class="col"] {
+  padding-left: 1, 5rem;
+  padding-right: 1, 5rem;
+}
+
+.col-30 {
+  width: 30%;
+}
+
+.col-70 {
+  width: 70%;
+}
+
+.col-1-1 {
+  width: calc(100%);
+}
+
+.col-1-3 {
+  width: calc(100% / 3);
+}
+
 /* header */
 
 header {
@@ -104,65 +133,30 @@ header li > a {
 
 /* inizio main */
 
-/* prima parte main */
+/* jumbo*/
 
-.azzurro .container {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  min-height: fit-content;
-}
-main .background-azzurro {
+#jumbo {
   background-color: #b4d0e7;
+}
+
+#jumbo .container {
   position: relative;
+  top: 100px;
 }
 
-.top-main {
-  display: flex;
-  justify-content: center;
-}
-
-.testo-main-azzurro {
-  padding-top: 137px;
-  max-width: 45%;
+#jumbo .container .row .col-30 {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  min-height: fit-content;
-  padding-left: 30px;
+  justify-content: space-between;
+  padding-bottom: 150px;
 }
 
-.testo-main-azzurro .bt-grande-blu {
-  margin-bottom: 20px;
-}
-.testo-main-azzurro .fa-solid {
-  font-size: 30px;
-  align-self: center;
-  padding-right: 180px;
-}
-.immagine-main-azzurro {
-  padding-top: 80px;
-  max-width: 45%;
-  padding-right: 40px;
-  position: relative;
-  top: 60px;
-  right: 50px;
-}
-.immagine-main-azzurro img {
-  max-width: 120%;
-}
-.top-main p {
-  max-width: 80%;
-  padding-bottom: 30px;
-  font-size: 0.9rem;
-}
+/* fine jumbo */
 
-/* fine prima parte main */
-
-/* seconda parte main */
+/* business */
 
 .business > .container {
-  margin-top: 50px;
+  margin-top: 200px;
 }
 .business p {
   max-width: 100%;
@@ -191,23 +185,4 @@ main .background-azzurro {
   margin-right: 10px;
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  row-gap: 2rem;
-  margin-left: -1, 5rem;
-  margin-right: -1, 5rem;
-}
-
-.col-1-1 {
-  padding-left: 1, 5rem;
-  padding-right: 1, 5rem;
-  width: calc(100%);
-}
-
-.col-1-3 {
-  padding-left: 1, 5rem;
-  padding-right: 1, 5rem;
-  width: calc(100% / 3);
-}
-/* fine seconda parte main */
+/* fine business */
