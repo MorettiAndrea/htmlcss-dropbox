@@ -54,6 +54,22 @@ h1 {
   font-size: 4.2rem;
 }
 
+.top-list {
+  border: 1px gray solid;
+  padding-left: auto;
+  padding-right: auto;
+  text-align: center;
+  min-height: 30px;
+  width: 100%;
+  display: block;
+}
+
+.inline {
+  display: inline;
+}
+
+/* colonne */
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -61,8 +77,6 @@ h1 {
   margin-left: -1.5rem;
   margin-right: -1.5rem;
 }
-
-/* colonne */
 
 [class*="col"] {
   padding-left: 1.5rem;
@@ -159,9 +173,6 @@ header li > a {
 .business > .container {
   margin-top: 200px;
 }
-.business p {
-  display: inline;
-}
 .business h2 {
   padding-bottom: 30px;
 }
@@ -199,6 +210,12 @@ header li > a {
   height: 20px;
   background-color: white;
   margin-right: 10px;
+}
+
+.bottom-business {
+  display: flex;
+
+  justify-content: space-between;
 }
 
 /* fine business */
