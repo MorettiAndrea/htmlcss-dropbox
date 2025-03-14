@@ -23,6 +23,9 @@ ul {
 .border {
   border: 2px dashed black;
 }
+.border-gray {
+  border: 1px solid gray;
+}
 /* /setup generali */
 
 /* utility */
@@ -53,10 +56,10 @@ ul {
 }
 .bt-grande-blu {
   background-color: #0261fe;
-  width: 180px;
-  height: 30px;
-  font-size: 0.8rem;
-  border: none;
+  width: 240px;
+  height: 40px;
+  font-size: 0.9rem;
+
   color: white;
 }
 .bt-grande-bianco {
@@ -67,13 +70,13 @@ ul {
   border: 1px solid black;
 }
 
-.top-list {
+.card-head {
   border: 1px gray solid;
   padding-top: 10px;
   text-align: center;
   height: 50px;
   width: 100%;
-  display: block;
+  font-weight: 700;
 }
 
 .inline {
@@ -201,7 +204,7 @@ header li > a {
 
 /* fine jumbo */
 
-/* business */
+/* inizio business */
 
 .business > .container {
   margin-top: 200px;
@@ -216,17 +219,30 @@ header li > a {
   font-size: 2.4rem;
 }
 
+.business .fa-solid {
+  font-size: 1rem;
+  padding-right: 0.5rem;
+}
 .business-top {
-  padding-bottom: 30px;
+  padding-bottom: 50px;
+}
+.card {
+  min-height: 750px;
 }
 
 .business .col-1-3 h3 {
   padding-top: 20px;
 }
 
+.business ul {
+  padding: 20px 0;
+}
+
 .business ul li {
   padding-top: 20px;
+  padding-left: 1rem;
 }
+
 .flag-blu {
   display: inline-block;
   border: 5px solid #0665e6;
@@ -246,10 +262,17 @@ header li > a {
   margin-right: 10px;
 }
 
+.card-bottom {
+  margin-top: 50px;
+}
+
 .bottom-business {
   display: flex;
   justify-content: space-between;
   padding: 20px 0;
+}
+.bottom-business h3 {
+  padding-bottom: 80px;
 }
 
 /* fine business */
