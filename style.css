@@ -275,21 +275,21 @@ header li > a {
   margin-right: 2rem;
 }
 
-.bottom-business h3 {
-  margin-left: 2rem;
-}
 .card-bottom p {
-  display: block;
   margin-left: 2rem;
+  margin-top: 3rem;
 }
 
-.bottom-business {
+.bottom-business .office-contact {
   display: flex;
   justify-content: space-between;
-  padding: 20px 0;
 }
-.bottom-business h3 {
-  padding-bottom: 80px;
+.bottom-business * {
+  margin: 0.5rem 0;
+  margin-left: 1rem;
+}
+.bottom-business h4 {
+  padding-left: 1rem;
 }
 
 /* fine business */
