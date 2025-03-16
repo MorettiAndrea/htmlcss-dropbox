@@ -204,6 +204,15 @@ header li > a {
   flex-direction: column;
   justify-content: space-between;
   padding-bottom: 150px;
+  font-size: 0.9rem;
+}
+#jumbo p {
+  line-height: 1.3rem;
+}
+
+#jumbo .fa-arrow-down {
+  position: relative;
+  top: 2rem;
 }
 
 /* fine jumbo */
